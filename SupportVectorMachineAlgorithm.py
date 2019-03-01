@@ -34,3 +34,6 @@ print(y_test)
 cm=confusion_matrix(y_test,y_pred) #tahmin edilecek değerler arasında oluşturulur
 
 print(cm)
+
+#KERNEL TRICK######################################### Doğrusal Olmayan Sınıflandırma da ayrım yapmak için kullanılır
+#Veri doğrusal düzlemden farklı bi boyuta 3.boyuta taşınarak sınıflandırılır.
